@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "nostr-tools": "npm:nostr-tools@^2.7.0"
+  }
+}
