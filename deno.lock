@@ -2,6 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "npm:lodash.pick@^4.4.0": "npm:lodash.pick@4.4.0",
       "npm:nostr-tools@^2.7.0": "npm:nostr-tools@2.7.0"
     },
     "npm": {
@@ -48,6 +49,10 @@
           "@scure/base": "@scure/base@1.1.1"
         }
       },
+      "lodash.pick@4.4.0": {
+        "integrity": "sha512-hXt6Ul/5yWjfklSGvLQl8vM//l3FtyHZeuelpzK6mm99pNvN9yTDruNZPEJZD1oWrqo+izBmB7oUfWgcCX7s4Q==",
+        "dependencies": {}
+      },
       "nostr-tools@2.7.0": {
         "integrity": "sha512-jJoL2J1CBiKDxaXZww27nY/Wsuxzx7AULxmGKFce4sskDu1tohNyfnzYQ8BvDyvkstU8kNZUAXPL32tre33uig==",
         "dependencies": {
@@ -74,6 +79,7 @@
   },
   "workspace": {
     "dependencies": [
+      "npm:lodash.pick@^4.4.0",
       "npm:nostr-tools@^2.7.0"
     ]
   }
