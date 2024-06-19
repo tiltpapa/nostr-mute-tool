@@ -16,5 +16,6 @@ export async function req(){
 }
 
 export async function publish(event: Event){
-    return await pool.publish(relays, event);
+    const result = await pool.publish(relays, event);
+    return result;
 }
